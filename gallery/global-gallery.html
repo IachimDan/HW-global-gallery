@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Gglobal Gallery | CSS</title>
+        <style>
+            body{
+                background-color: #222;
+            }
+
+            img{
+                width: 300px;
+                border: 20px solid white;
+                margin-right: -172px;
+                margin-left: -172px;
+
+                
+            }
+
+            #gallery{
+                margin-top: 200px;
+               /* border: 1px solid red;*/
+                text-align: center;
+            }
+            .i-1{
+                /**---new---**/
+                transform: rotate(40deg) ;
+                
+                /**---new---**/
+            }
+            .i-2{
+                /**---new---**/
+                transform: rotate(20deg) ;
+                border-color: #e6e6e6;
+                /**---new---**/
+            }   
+            .i-3{
+                /**---new---**/
+                transform: rotate(0deg) ;
+                border-color: #cccccc;
+                /**---new---**/
+            }    
+            .i-4{
+                /**---new---**/
+                transform: rotate(-20deg) ;
+                border-color: #b3b3b3;
+                /**---new---**/
+            }    
+            .i-5{
+                /**---new---**/
+                transform: rotate(-40deg) ;
+                border-color: #999999;
+                /**---new---**/
+            }
+
+           /* HW:reversati rotatia imaginilor */
+            
+        </style>
+    </head>
+    <body>
+        <p id="gallery">
+            <img class="i-1" src="https://i.picsum.photos/id/688/400/600.jpg?hmac=ANy8zYg4DC_oQ1m-ZgIzrqAXDy9M3DKMbV7NNfdF4ds" alt="">
+            <img class="i-2" src="https://i.picsum.photos/id/0/400/600.jpg?hmac=QOYSr3DcfB6ODXYN0DrLCNTeCy8JsJIgCLNcmz5D10k" alt="">
+            <img class="i-3" src="https://i.picsum.photos/id/550/400/600.jpg?hmac=BVOnFTLer0NJBfa6eszNm4RLeEfWPVcAQ7GOrGTqT7w" alt="">
+            <img class="i-4" src="https://i.picsum.photos/id/900/400/600.jpg?hmac=tVV4ZocOFm474MCK12_1uCh4SbzkmI63T7y9hkvu7XM" alt="">
+            <img class="i-5" src="https://i.picsum.photos/id/23/400/600.jpg?hmac=78vZ96DzpFyCEJ2HG2ZEl7vvidwsx50QS-cdOO8OIk8" alt="">
+        </p>
+    </body>
+</html>
